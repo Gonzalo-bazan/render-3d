@@ -110,26 +110,54 @@ block content
         a(href="#" class="text-secondary hover:underline") Ver más →
 
   //- Lo que Dicen Nuestros Clientes
-  .testimonials-section(class="bg-gray-100 py-16")
-    .container(class="mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 items-center")
-      .testimonials-text
-        h2(class="text-3xl font-bold mb-4 text-darkGray") "Lo que Dicen Nuestros Clientes"
-        p(class="text-mediumGray mb-8") Comentarios de clientes satisfechos y ejemplos de proyectos exitosos para construir credibilidad.
-        .grid.grid-cols-2.gap-8
-          .testimonial
-            i(class="fas fa-users text-secondary text-3xl mb-2")
-            h3(class="text-xl font-bold text-darkGray") 2,245,341
-          .testimonial
-            i(class="fas fa-project-diagram text-secondary text-3xl mb-2")
-            h3(class="text-xl font-bold text-darkGray") 46,328
-          .testimonial
-            i(class="fas fa-smile text-secondary text-3xl mb-2")
-            h3(class="text-xl font-bold text-darkGray") 828,867
-          .testimonial
-            i(class="fas fa-award text-secondary text-3xl mb-2")
-            h3(class="text-xl font-bold text-darkGray") 1,926,436
-      .testimonials-image
-        img(src="/img/f2.png" alt="Clientes" class="w-full")
+  .testimonials-section(class="bg-primary py-16")
+    .container(class="mx-auto px-4")
+      h2(class="text-3xl font-bold mb-12 text-white text-center") Lo que Dicen Nuestros Clientes
+      .div(class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8")
+        .testimonial.bg-white.p-6.rounded-lg.shadow-lg
+          .testimonial-header.flex.items-center.mb-4
+            img(src="https://randomuser.me/api/portraits/men/1.jpg" alt="Juan Pérez" class="w-12 h-12 rounded-full mr-4")
+            .testimonial-author
+              h3(class="text-lg font-bold text-darkGray") Juan Pérez
+              p(class="text-sm text-mediumGray") CEO en Ejemplo Inc.
+          p(class="text-mediumGray") “La calidad y precisión de las impresiones 3D que ofrece 3D Render Connects es insuperable. Su atención al detalle y profesionalismo nos han permitido desarrollar productos excepcionales.”
+        .testimonial.bg-white.p-6.rounded-lg.shadow-lg
+          .testimonial-header.flex.items-center.mb-4
+            img(src="https://randomuser.me/api/portraits/women/2.jpg" alt="María López" class="w-12 h-12 rounded-full mr-4")
+            .testimonial-author
+              h3(class="text-lg font-bold text-darkGray") María López
+              p(class="text-sm text-mediumGray") Diseñadora Industrial
+          p(class="text-mediumGray") “El equipo de 3D Render Connects no solo ofrece un servicio de impresión 3D de alta calidad, sino que también proporciona una asesoría invaluable durante todo el proceso. Recomiendo sus servicios sin dudarlo.”
+        .testimonial.bg-white.p-6.rounded-lg.shadow-lg
+          .testimonial-header.flex.items-center.mb-4
+            img(src="https://randomuser.me/api/portraits/men/3.jpg" alt="Carlos Martínez" class="w-12 h-12 rounded-full mr-4")
+            .testimonial-author
+              h3(class="text-lg font-bold text-darkGray") Carlos Martínez
+              p(class="text-sm text-mediumGray") Ingeniero Mecánico
+          p(class="text-mediumGray") “Gracias a 3D Render Connects, hemos podido prototipar y producir piezas complejas con una calidad impresionante. Su servicio al cliente y tiempos de entrega son excepcionales.”
+        .testimonial.bg-white.p-6.rounded-lg.shadow-lg
+          .testimonial-header.flex.items-center.mb-4
+            img(src="https://randomuser.me/api/portraits/women/4.jpg" alt="Ana García" class="w-12 h-12 rounded-full mr-4")
+            .testimonial-author
+              h3(class="text-lg font-bold text-darkGray") Ana García
+              p(class="text-sm text-mediumGray") Arquitecta
+          p(class="text-mediumGray") “Las maquetas impresas en 3D de 3D Render Connects nos han permitido presentar nuestros proyectos de manera mucho más efectiva. La calidad y detalle de sus impresiones son incomparables.”
+        .testimonial.bg-white.p-6.rounded-lg.shadow-lg
+          .testimonial-header.flex.items-center.mb-4
+            img(src="https://randomuser.me/api/portraits/men/5.jpg" alt="Luis Rodríguez" class="w-12 h-12 rounded-full mr-4")
+            .testimonial-author
+              h3(class="text-lg font-bold text-darkGray") Luis Rodríguez
+              p(class="text-sm text-mediumGray") Artista 3D
+          p(class="text-mediumGray") “He trabajado con varios servicios de impresión 3D, y 3D Render Connects es, con diferencia, el mejor. Su precisión y calidad superan todas mis expectativas.”
+        .testimonial.bg-white.p-6.rounded-lg.shadow-lg
+          .testimonial-header.flex.items-center.mb-4
+            img(src="https://randomuser.me/api/portraits/women/6.jpg" alt="Beatriz Fernández" class="w-12 h-12 rounded-full mr-4")
+            .testimonial-author
+              h3(class="text-lg font-bold text-darkGray") Beatriz Fernández
+              p(class="text-sm text-mediumGray") Diseñadora Gráfica
+          p(class="text-mediumGray") “La flexibilidad y variedad de materiales que ofrece 3D Render Connects nos ha permitido explorar y desarrollar productos innovadores. Su atención al cliente es ejemplar.”
+
+
 
   //- Preguntas Frecuentes
   .faq-section(class="bg-white py-16")
